@@ -1,0 +1,37 @@
+.logotype {
+  text-decoration: none;
+  font-family: $textLogotype;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.logotype__link--dark {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 92px;
+
+  color: $logotypeDarkColor;
+
+  &:hover,
+  &:focus {
+    color: $logotypeDarkColor;
+  }
+}
+
+.logotype__link--accent {
+  color: $accentColor;
+}
+
+.logotype__link--light {
+  display: block;
+  margin-bottom: 20px;
+
+  color: $logotypeLightColor;
+
+  &:hover,
+  &:focus {
+    color: $logotypeLightColor;
+  }
+}
